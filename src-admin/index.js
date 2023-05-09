@@ -1,4 +1,4 @@
-socket = io.connect("http://localhost:3000/")
+socket = io.connect("https://con-luz-propia.onrender.com/")
 const productsDiv = document.getElementById("products")
 const nameInput = document.getElementById("name-input")
 const descInput = document.getElementById("desc-input")

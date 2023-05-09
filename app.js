@@ -17,7 +17,7 @@ app.use(express.static('src'));
 
 var io = require('socket.io')(server, {
   cors: {
-      origin: "http://localhost:3000",
+      origin: "https://con-luz-propia.onrender.com/admin/",
       methods: ["GET", "POST"],
       transports: ['websocket', 'polling'],
       credentials: true
