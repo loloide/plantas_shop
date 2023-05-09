@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css" type="text/css">
+        <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Con Luz Propia [admin]</h1>
+        <div id="products">
+            
+        </div>
+
+        
+        <fieldset>
+            <legend>Agregar plantas</legend>
+            <div id="input-div">
+                
+                <input type="text" name="name" id="name-input" placeholder="Nombre de la planta">
+                <input type="text" name="desc" id="desc-input" placeholder="Descripción">
+                <input type="number" name="price" id="price-input" placeholder="Precio">
+                <input type="text" name="image" id="image-input" placeholder="link a imagen">
+                <input type="text" name="key" id="key-input" placeholder="Contraseña">
+            </div>
+            
+            <button id="submit-button" onclick="sendItems()">Enviar</button>
+        </fieldset>
+
+        <script src="index.js"></script>
+    </body>
+</html>

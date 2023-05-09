@@ -1,0 +1,45 @@
+html {
+    background-color: #f2d1c2;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    position: relative;
+    text-align: center;
+}
+.product-image {
+    max-width: 100%;
+}
+#input-div {
+    flex-direction: column;
+}
+input {
+    margin: 10px;
+    padding: 5px 5px 5px 5px;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 48px;
+    margin: 0;
+}
+h3 {
+    font-size: 36px;
+    margin: 0;
+}
+.product {
+    width: 20%;
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+#products {
+    text-align: -webkit-center;
+}
+p {
+    margin-top: 0;
+}
+a {
+    color: black;
+}
